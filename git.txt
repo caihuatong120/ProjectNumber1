@@ -20,3 +20,9 @@ git log		查看提交历史，以便确定要回退到哪个版本
 git reflog	查看命令历史，以便确定要回到未来的哪个版本
 
 git log --pretty=oneline 单行查看
+
+//单词补充
+modified 修改的 改良的
+Untracked 无足迹的 无路径的
+
+工作区 >git add >暂存区(版本库) git commit>分支(版本库)
