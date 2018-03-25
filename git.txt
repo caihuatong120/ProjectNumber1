@@ -11,7 +11,8 @@ git add <file>
 git commit (-m 描述 没写会跳转界面  可以按i(insert) 补充描述 然后esc :wq)
 
 git status 仓库当前的状态
-git diff
+git diff 工作区和暂存区的比较
+git diff --cached 暂存区和分支的比较
 
 git reset --hard HEAD^  上一个版本HEAD^，上上一个版本HEAD^^，HEAD~100。
 git reset --hard (commit 记录id)
