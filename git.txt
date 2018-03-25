@@ -66,4 +66,5 @@ git log --graph (看到分支合并图) --pretty=oneline(单行) --abbrev-commit
 
 git merge --no-ff -m "merge wwith no-ff" dev 参数合并  准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward
 
-sadad
+sadadad
+adadad
