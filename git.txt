@@ -58,3 +58,6 @@ git checkout dev
 git branch 查看当前分支
 
 git merge name(分支) 从分支合并到当前分支
+
+git branch -D name 直接删除
+git branch -d name 没有融合不能删除
