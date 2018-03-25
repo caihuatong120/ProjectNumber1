@@ -36,6 +36,8 @@ git log --pretty=oneline 单行查看
 //单词补充
 modified 修改的 改良的
 Untracked 无足迹的 无路径的
+stash 储藏
+pop 取出
 
 工作区 >git add >暂存区(版本库) git commit>分支(版本库)
 
@@ -70,3 +72,9 @@ git branch -d name 没有融合不能删除
 git log --graph (看到分支合并图) --pretty=oneline(单行) --abbrev-commit(缩写提交)
 
 git merge --no-ff -m "merge wwith no-ff" dev 参数合并  准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward
+
+bug 分支
+git stash
+git stash apply(恢复后 需要用git stash drop 来删除)
+git stash pop (恢复 同时把stash内容也删除了)
+git stash list 查看stash列表
