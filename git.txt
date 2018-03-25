@@ -49,3 +49,10 @@ git push 把当前分支master推送到远程
 克隆远程工程
 git clone git@github.com:caihuatong120/JinjinProject.git
 
+创建与合并分支
+git checkout -b name git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+
+git branch dev
+git checkout dev
+
+git branch 查看当前分支
