@@ -27,3 +27,4 @@ modified 修改的 改良的
 Untracked 无足迹的 无路径的
 
 工作区 >git add >暂存区(版本库) git commit>分支(版本库)
+test
