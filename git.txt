@@ -1,8 +1,8 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
-mkdir name(文件夹)
-rmdir name(文件夹)
+mkdir name(文件夹) 创建文件夹
+rmdir name(文件夹) 删除文件夹
 cd name(文件夹)
 pwd 查看显示当前目录
 git init
