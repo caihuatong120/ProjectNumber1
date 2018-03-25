@@ -1,0 +1,19 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+mkdir name(文件夹)
+rmdir name(文件夹)
+cd name(文件夹)
+pwd 查看显示当前目录
+git init
+
+git add <file>
+git commit
+
+git status 仓库当前的状态
+git diff
+
+$ git reset --hard HEAD^  上一个版本HEAD^，上上一个版本HEAD^^，HEAD~100。
+
+git log		查看提交历史，以便确定要回退到哪个版本
+git reflog	查看命令历史，以便确定要回到未来的哪个版本
