@@ -111,3 +111,7 @@ GitHub
 可以推送pull request给官方仓库来贡献代码。
 
 git remote rm origin(远程库) 删除远程库
+
+git branch -D BranchName 删除本地分支
+git branch -r -D origin/BranchName 删除本地的远程分支
+git push origin -d BranchName 远程删除git服务器上的分支
