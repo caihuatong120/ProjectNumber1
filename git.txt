@@ -56,3 +56,5 @@ git branch dev
 git checkout dev
 
 git branch 查看当前分支
+
+git merge name(分支) 从分支合并到当前分支
