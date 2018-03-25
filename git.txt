@@ -40,6 +40,8 @@ stash 储藏
 pop 取出
 abbrev 缩写
 pretty 漂亮的 可爱的 优美的
+no tracking information 没有跟踪信息
+upstream 上行 上游
 
 工作区 >git add >暂存区(版本库) git commit>分支(版本库)
 
@@ -84,3 +86,8 @@ git stash list (看stash列表)
 多人协作
 git remote查看远程库
 git remote -v 显示更详细的信息   (fetch)抓取 (push) 推送 权限
+
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，
+用命令git branch --set-upstream branch-name origin/branch-name。
+git push origin branch-name 本地推送分支
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
