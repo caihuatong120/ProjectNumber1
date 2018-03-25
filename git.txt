@@ -17,3 +17,5 @@ $ git reset --hard HEAD^  上一个版本HEAD^，上上一个版本HEAD^^，HEAD
 
 git log		查看提交历史，以便确定要回退到哪个版本
 git reflog	查看命令历史，以便确定要回到未来的哪个版本
+
+$ git log --pretty=oneline 单行查看
