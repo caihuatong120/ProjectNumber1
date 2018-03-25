@@ -91,3 +91,16 @@ git remote -v 显示更详细的信息   (fetch)抓取 (push) 推送 权限
 用命令git branch --set-upstream branch-name origin/branch-name。
 git push origin branch-name 本地推送分支
 git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
+
+标签
+git tag 查看所有标签
+git show (tagname) 查看标签信息
+git tag name 默认打在最新提交的commit上
+git tag name commit id //例如git tag v0.9 6224937(某个对应的commit id)
+git tag -a v0.1 -m "version 0.1 released" 3628164//用-a指定标签名，-m指定说明文字
+git tag -s v0.2 -m "signed version 0.2 released" fec145a -s用私钥签名一个标签
+
+git tag -d <tagname>可以删除一个本地标签
+git push origin <tagname>可以推送一个本地标签
+git push origin --tags可以推送全部未推送过的本地标签
+git push origin :refs/tags/<tagname>可以删除一个远程标签
