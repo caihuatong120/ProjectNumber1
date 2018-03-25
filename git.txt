@@ -1,35 +1,5 @@
-$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com"
-
-mkdir name(文件夹) 创建文件夹
-rmdir name(文件夹) 删除文件夹
-cd name(文件夹)
-pwd 查看显示当前目录
-git init
-
-git add <file>
-git commit (-m 描述 没写会跳转界面  可以按i(insert) 补充描述 然后esc :wq)
-
-git status 仓库当前的状态
-git diff 工作区和暂存区的比较
-git diff --cached 暂存区和分支的比较
-git diff HEAD -- name 工作区和版本库里面最新版本的区别
-git reset --hard HEAD^  上一个版本HEAD^，上上一个版本HEAD^^，HEAD~100。
-git reset --hard (commit 记录id)
-
-git log		查看提交历史，以便确定要回退到哪个版本
-git reflog	查看命令历史，以便确定要回到未来的哪个版本
-
-git log --pretty=oneline 单行查看
-
-//单词补充
-modified 修改的 改良的
-Untracked 无足迹的 无路径的
-
-工作区 >git add >暂存区(版本库) git commit>分支(版本库)
-test
-test2$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com"
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
 
 mkdir name(文件夹) 创建文件夹
 rmdir name(文件夹) 删除文件夹
