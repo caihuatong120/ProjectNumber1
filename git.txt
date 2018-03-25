@@ -80,3 +80,7 @@ git stash
 git stash apply(恢复后 需要用git stash drop 来删除)
 git stash pop (恢复 同时把stash内容也删除了)
 git stash list (看stash列表)
+
+多人协作
+git remote查看远程库
+git remote -v 显示更详细的信息   (fetch)抓取 (push) 推送 权限
